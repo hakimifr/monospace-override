@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Monospace Override",
+  "version": "1.0",
+  "description": "Overrides shitty choices",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
